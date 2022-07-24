@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <title>Activity 16 | Creating Responsive Landing Page</title>
+    </head>
+    <body>
+        <!--navigation-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container">
+                
+                <a href="#" class="navbar-brand"><img src="logo.png" height="60px"></a>
+                <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+               
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown">About</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown">Service</a>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </nav>
+    </section>      
+
+        <!--content--> 
+        <section class="p-5 text-sm-start">
+            <div class="p-5">
+                <div class="container">
+                    <div class="row">
+                    <div class="col col-lg-6 col-sm-12 text-center pt-5" id="colleft">
+                        <img src="logo.png" alt="" height="300px" class="pb-4">
+                        <div>
+                            <h1>Digital Business</h1>
+                            <h5>Providing excellent Social Media Management and </br>
+                                Digital Services with endless possibilities
+                            </h5>
+                        </div>
+                    </div>
+                   
+                    <div class="col col-lg-6 col-sm-12 p-5" id="colright">
+                        <div>
+                            <h2 class="text-center pb-3">
+                                Book an Appointment now!
+                            </h2>
+                            <form action="https://formsubmit.co/be29422d20e3d293de0b85db2f6cf454" method="POST">
+                                    <h4>Name: </h4>
+                                    <input type="text" class="form-control" placeholder="Full Name">
+                                    <h4>Email: </h4>
+                                    <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Enter email:">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                        </div>
+                                    </div>
+                                    <h4>Phone Number:</h4>
+                                    <input type="number" name="message" class="form-control"  placeholder="Phone Number ex: 09********">
+                                    <h4>Message:</h4>
+                                    <textarea class="form-control" placeholder="Message Here" style="height: 100px"></textarea>
+                                    <div>
+                                        <p>By Submitting my email,I agree to recive automated and non-automated transactional and marketing calls/text from DM Claveria Digital Business Solution.</p>
+                                        <input type="checkbox" aria-label="Checkbox for following text input"> I agreed to the condition above.
+                                    </div>
+                                    <button class="btn btn-primary btn-lg my-3" type="submit" onclick="alert('Thank You for messaging us!')"><i class="bi bi-send"></i><span>Send</span></button>
+                                    
+                            </form>       
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+     
+    </body>
+</html>
+
+
+

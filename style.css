@@ -1,0 +1,28 @@
+@media only screen and (min-width: 992px) {
+    body {
+      background-image: url('bg.jpg');
+     }
+}
+
+.col h1 {
+    color: #E17717;
+}
+
+.col h5 {
+    color: #251E20;
+}
+
+.col h2 {
+    color: #E17717;
+}
+.btn {
+    background-color: #E17717;
+    color: #251E20;
+}
+.form-control {
+    resize: none;
+}
+
+.col p{
+    color: #E17717;
+}
